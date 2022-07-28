@@ -1,0 +1,48 @@
+.doings {
+    text-align: center;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.doings_p {
+    max-inline-size: 550px;
+    font-size: 17px;
+    /* margin: 25px 0; */
+}
+
+.doings_cads {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0 380px;
+}
+
+.doings_cads div {
+    background: var(--color_primary);
+    min-height: 500px;
+    text-align: left;
+    padding: 60px 60px;
+}
+
+.doings_cads div p {
+    line-height: 1.75;
+    font-weight: lighter;
+    word-spacing: 1.5;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.doings_cads a {
+  border: 1px solid white;
+}
+
+.doings_cads a:hover {
+  background: none;
+}
